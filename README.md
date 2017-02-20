@@ -22,7 +22,7 @@ To insert data from example excel file to example table ,you need a programe wit
 If  source and dest column names are completly different , you can explicitly map the column names using a simple property file or a table
 
 | idExcelFileName |    ExcelColumn |    TableColumn |
-|---| -----------------|----------------|
+|------------------|---------------|------|
 |1    |  first     |  SSFFRRSSTt |
 
 ## How to Use
