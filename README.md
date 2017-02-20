@@ -28,18 +28,22 @@ If  source and dest column names are completly different , you can explicitly ma
 ## How to Use
 CASE 1-   if you want explicit mapping also to be performed.
 Create a table excelfilename
+
 | id |    ExcelFileName |    tablename |
 |---| -----------------|----------------|
 
 Create a table exceltablemapper
+
 | id |    excelColumn |    tableColumn | idExcelfilename
 |---| -----------------|----------------|----------------|
 
 use below method API
+
 ```java
  SmartExcelToTable.kickStartSmartExcelToTable(String filename,String filepath);
 ```    
 example -- 
+
 ```java
 kickStartSmartExcelToTable("AssetData.xlsx",
 				"D:/MyWs/Dashboard/exceltotable/AssetData.xlsx");
